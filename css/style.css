@@ -10,7 +10,7 @@ body {
     display: grid;
     /* Création de la grille de 13 colonne */
     grid-template-columns: repeat(12,1fr);
-    /* Hauteur des lignes  */
+    /* Répartition de la hauteur des lignes  */
     grid-template-rows: 25vh 16vh 17vh 17vh 25vh;
     grid-gap: 5px;
 }
