@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 100px-;
+   
+
+}
+img {
+    max-width: 100%;
+}
+.item-1 {
+  grid-column: 1 / 3
+}
