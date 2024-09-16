@@ -5,13 +5,15 @@ body {
 
 /* Small devices (landscape phones, 576px and up) */
 .container {
-    padding: 10px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 15px;
     /* Initialisation de la grille */
     display: grid;
     /* Création de la grille de 12 colonnes */
     grid-template-columns: repeat(12,1fr);
     /* Répartition de la hauteur des lignes  */
-    grid-template-rows: 23vh 16vh 17vh 17vh 22vh;
+    grid-template-rows: 22vh 16vh 17vh 17vh 22vh;
     grid-gap: 5px;
 }
 img {
@@ -35,6 +37,16 @@ img {
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
   
+    body {
+        background: black;
+        margin: 10px;
+    }
+    .container {
+        max-width: 75%;
+        background: white;
+        grid-template-rows: 21vh 16vh 17vh 17vh 21vh;
+       
+    }
     .item-1 {
         grid-column: 8 span;
         grid-row: 2 span
