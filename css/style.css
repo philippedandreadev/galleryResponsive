@@ -42,7 +42,7 @@ img {
         margin: 10px;
     }
     .container {
-        max-width: 75%;
+        max-width: 85%;
         background: white;
         grid-template-rows: 21vh 16vh 17vh 17vh 21vh;
        
